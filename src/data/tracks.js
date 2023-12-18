@@ -1,4 +1,5 @@
-import { getToken } from "../../token/getToken";
+import { getToken } from "../token";
+
 export async function tracks(query) {
     const token = await getToken();
 

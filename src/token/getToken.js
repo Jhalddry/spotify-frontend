@@ -1,4 +1,4 @@
-import { client_id, client_secret } from '../src/data/keys/credentials.json';
+import { client_id, client_secret } from '../data/keys/credentials.json';
 
 export async function getToken() {
     const clientId = client_id;
