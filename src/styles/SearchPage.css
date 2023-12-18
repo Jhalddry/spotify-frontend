@@ -1,0 +1,34 @@
+
+.search-input {
+  width: 30%;
+}
+
+.search-button {
+  margin-left: 2px; /* Ajusta el valor según la separación deseada */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px; /* Espacio entre los elementos de la cuadrícula */
+  background-color: #f1f1f1; /* Color de fondo del contenedor */
+  padding: 20px; /* Espacio interno del contenedor */
+}
+
+.grid-item {
+  background-color: #ffffff; /* Color de fondo de los elementos */
+  padding: 10px; /* Espacio interno reducido de los elementos */
+  font-size: 16px; /* Tamaño de fuente de los elementos */
+  text-align: center; /* Alineación del texto dentro de los elementos */
+}
+
+.grid-item img {
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen para que se ajuste al elemento */
+  height: auto; /* Ajusta automáticamente la altura proporcionalmente */
+}
+
+.button-separator {
+  margin: 0 5px; /* Ajusta los márgenes según tus preferencias */
+  width: 5px; /* Ajusta el ancho según tus preferencias */
+  display: inline-block;
+}
